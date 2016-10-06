@@ -79,6 +79,9 @@
   width: 60%;
   margin: 16px auto;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .example-container .example__live:before {
   content: "example";
