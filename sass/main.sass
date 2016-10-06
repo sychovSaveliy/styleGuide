@@ -1,2 +1,48 @@
+@import "_vars.sass"
+@import "pages/_home.sass"
+
+$menu-width: 15%
+$lun-color: #ff9800
+
+.iframe-tag
+    width: 100%
+    height: 100%
+
 .body
+    height: 100%
+    
+.menu-container
+    width: $menu-width
+    height: 100%
+    position: fixed
+    left: 0
+    top: 0
+    padding: 100px 10px
+    padding-right: 0
+    box-sizing: border-box
+    border-right: 2px solid $lun-color
+    .menu
+        header
+            background-color: $lun-color
+            color: #fff
+
+        header, li, .menu-group
+            padding: $s
+        ul
+            li
+                cursor: pointer
+                border-bottom: 1px solid $grayLighter2
+                transition: all .2s ease-in
+                &:hover
+                    background-color: rgba(255, 152, 0, 0.85)
+
+
+.menu-group
+    background-color: $grayDer
+    color: $grayLight
+    font-size: 0.8em
+
+.content-container
+    margin-left: 15%
+    width: 85%
     height: 100%
