@@ -1,0 +1,136 @@
+@charset "UTF-8";
+.arrow_back use {
+  transform: translateY(0px);
+}
+
+.arrow_forward use {
+  transform: translateY(-24px);
+}
+
+.builder use {
+  transform: translateY(-48px);
+}
+
+.building_small use {
+  transform: translateY(-72px);
+}
+
+.car_small use {
+  transform: translateY(-96px);
+}
+
+.ceiling use {
+  transform: translateY(-120px);
+}
+
+.chevron_down use {
+  transform: translateY(-144px);
+}
+
+.chevron_right use {
+  transform: translateY(-168px);
+}
+
+.chevron_up use {
+  transform: translateY(-192px);
+}
+
+.dropdown use {
+  transform: translateY(-216px);
+}
+
+.fav use {
+  transform: translateY(-240px);
+}
+
+.fav_outline use {
+  transform: translateY(-264px);
+}
+
+.fav_outline_small use {
+  transform: translateY(-288px);
+}
+
+.fav_small use {
+  transform: translateY(-312px);
+}
+
+.find use {
+  transform: translateY(-336px);
+}
+
+.flat use {
+  transform: translateY(-360px);
+}
+
+.floor use {
+  transform: translateY(-384px);
+}
+
+.full_screen use {
+  transform: translateY(-408px);
+}
+
+.heating use {
+  transform: translateY(-432px);
+}
+
+.info use {
+  transform: translateY(-456px);
+}
+
+.insulation_small use {
+  transform: translateY(-480px);
+}
+
+.list use {
+  transform: translateY(-504px);
+}
+
+.mail_outline_small use {
+  transform: translateY(-528px);
+}
+
+.more use {
+  transform: translateY(-552px);
+}
+
+.new_window_small use {
+  transform: translateY(-576px);
+}
+
+.person use {
+  transform: translateY(-600px);
+}
+
+.phone_small use {
+  transform: translateY(-624px);
+}
+
+.photo_small use {
+  transform: translateY(-648px);
+}
+
+.pin_outline use {
+  transform: translateY(-672px);
+}
+
+.share use {
+  transform: translateY(-696px);
+}
+
+.technology use {
+  transform: translateY(-720px);
+}
+
+.сlass_tbl use {
+  transform: translateY(-744px);
+}
+
+.fav_outline-white use {
+  transform: translateY(-768px);
+}
+
+.fav_outline-grey use {
+  transform: translateY(-792px);
+}

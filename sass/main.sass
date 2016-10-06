@@ -6,7 +6,7 @@ $lun-color: #ff9800
 
 .iframe-tag
     width: 100%
-    height: 100%
+    height: 99.7%
 
 .body
     height: 100%
@@ -46,3 +46,78 @@ $lun-color: #ff9800
     margin-left: 15%
     width: 85%
     height: 100%
+
+
+
+
+
+
+/*pages main layout*/
+.page__wrapper
+    background-color: #f5f5f5
+    width: 100%
+    height: 100%
+    padding: $l
+    box-sizing: border-box
+    
+    h1
+        font-size: $h1Size
+        padding-top: $l
+        padding-bottom: $m
+        border-bottom: 1px solid $grayLighter2
+    p
+        font-size: 20px
+        padding-top: $l
+    
+.example-container
+    display: flex
+    flex-direction: column
+    border-bottom: 1px solid $grayLighter2
+    margin-top: $xl
+    .example__header
+        border-bottom: 2px solid $grayDarkDer
+        padding: $m 0
+    
+    .example__live
+        
+        width: 60%
+        margin: $m auto
+        position: relative
+        &:before
+            content: "example"
+            position: absolute
+            color: #bdbdbd
+            right: -10%
+            top: 50%
+            transform: rotate(90deg)
+        &:after
+            content: "example"
+            position: absolute
+            color: #bdbdbd
+            left: -10%
+            top: 50%
+            transform: rotate(-90deg)
+
+    .example__block
+        display: flex
+        flex-direction: row
+        padding: $s
+        box-sizing: border-box
+    .example__description
+        width: 50%
+        border-right: 2px solid $grayDarkDer
+        padding: $l $s
+        font-size: 15px
+        ol
+            list-style: circle
+            padding-left: 40px
+        p
+            font-size: 15px
+            margin-bottom: $s
+            
+    .example__code
+        width: 50%
+        padding: $l $s
+        .selected
+            color: $lun-color
+            font-weight: bold
